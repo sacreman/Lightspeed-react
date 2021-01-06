@@ -100,7 +100,6 @@ const App = () => {
           <video
             id="player"
             playsInline
-            autoPlay
             controls
             poster="/images/img.jpg"
           ></video>
