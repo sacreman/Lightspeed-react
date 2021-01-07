@@ -116,7 +116,7 @@ const App = () => {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/live_chat?v={process.env.VID}&embed_domain=maggiemays.live"
+                src="https://www.youtube.com/live_chat?v=%REACT_APP_VID%&embed_domain=maggiemays.live"
               ></iframe>
             </div>
           </div>
