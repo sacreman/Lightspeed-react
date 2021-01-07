@@ -99,10 +99,27 @@ const App = () => {
         <div className="video-container">
           <video
             id="player"
+            autoPlay
+            muted
             playsInline
             controls
             poster="/images/img.jpg"
           ></video>
+        </div>
+        <div className="chat-container">
+          <div className="chat-main">
+            <div className="chat-heading chat-pad">
+              <h6>Live Chat</h6>
+              <i className="fas fa-long-arrow-up arrow"></i>
+            </div>
+            <div className="chat-body">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/live_chat?v={process.env.VID}&embed_domain=maggiemays.live"
+              ></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </div>
