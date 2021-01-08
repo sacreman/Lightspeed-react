@@ -115,7 +115,8 @@ const App = () => {
                 and 6 shots are $20.
               </p>
               <p>
-                You can pay by visiting
+                {" "}
+                You can pay by visiting{" "}
                 <a href src="https://pay.maggiemays.live" target="_blank">
                   pay.maggiemays.live
                 </a>
