@@ -114,7 +114,7 @@ const App = () => {
                   href="https://pay.maggiemays.live"
                   target="_blank"
                   rel="noreferrer"
-                  style={{ color: hotpink }}
+                  style={{ color: "hotpink" }}
                 >
                   pay.maggiemays.live
                 </a>
