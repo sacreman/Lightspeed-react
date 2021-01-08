@@ -109,11 +109,12 @@ const App = () => {
             <div className="detail-heading-box">
               <p>
                 Support the stream by buying the girls a drink. One drink is $5
-                and 6 shots are $20. You can pay by visiting
+                and 6 shots are $20. You can pay by visiting{" "}
                 <a
                   href="https://pay.maggiemays.live"
                   target="_blank"
                   rel="noreferrer"
+                  style="color: hotpink;"
                 >
                   pay.maggiemays.live
                 </a>
