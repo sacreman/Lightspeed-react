@@ -105,18 +105,35 @@ const App = () => {
             controls
             poster="/images/img.jpg"
           ></video>
+          <div className="video-details">
+            <div className="detail-heading-box">
+              <h4 className="details-heading">
+                Welcome to the Maggie Mays Real-Time Livestream
+              </h4>
+              <p>
+                Support the stream by buying the girls a drink. One drink is $5
+                and 6 shots are $20.
+              </p>
+              <p>
+                You can pay by visiting
+                <a href src="https://pay.maggiemays.live" target="_blank">
+                  pay.maggiemays.live
+                </a>
+                . Remember to tell us who the drinks are for in the livechat.
+              </p>
+            </div>
+          </div>
         </div>
         <div className="chat-container">
           <div className="chat-main">
             <div className="chat-heading chat-pad">
               <h6>Live Chat</h6>
-              <i className="fas fa-long-arrow-up arrow"></i>
             </div>
             <div className="chat-body">
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/live_chat?v=jbI9-zX46Ak&embed_domain=maggiemays.live"
+                src="https://www.youtube.com/live_chat?v=jbI9-zX46Ak&embed_domain=maggiemays.live&dark_theme=1"
               ></iframe>
             </div>
           </div>
