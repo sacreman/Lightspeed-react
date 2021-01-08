@@ -107,15 +107,9 @@ const App = () => {
           ></video>
           <div className="video-details">
             <div className="detail-heading-box">
-              <h4 className="details-heading">
-                Welcome to the Maggie Mays Real-Time Livestream
-              </h4>
               <p>
                 Support the stream by buying the girls a drink. One drink is $5
-                and 6 shots are $20.
-              </p>
-              <p>
-                You can pay by visiting
+                and 6 shots are $20. You can pay by visiting
                 <a
                   href="https://pay.maggiemays.live"
                   target="_blank"
@@ -137,7 +131,7 @@ const App = () => {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/live_chat?v=jbI9-zX46Ak&embed_domain=maggiemays.live&dark_theme=1"
+                src="https://www.youtube.com/live_chat?v=lNcfFHCTR-8&embed_domain=maggiemays.live&dark_theme=1"
               ></iframe>
             </div>
           </div>
