@@ -116,7 +116,11 @@ const App = () => {
               </p>
               <p>
                 You can pay by visiting
-                <a href="https://pay.maggiemays.live" target="_blank">
+                <a
+                  href="https://pay.maggiemays.live"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   pay.maggiemays.live
                 </a>
                 . Remember to tell us who the drinks are for in the livechat.
